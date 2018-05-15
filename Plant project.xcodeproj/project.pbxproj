@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A05A09420AB8B8F006A3B84 /* PlantGuideTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A05A09320AB8B8F006A3B84 /* PlantGuideTableViewController.swift */; };
+		8A05A09620AB8F20006A3B84 /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A05A09520AB8F20006A3B84 /* GoalsViewController.swift */; };
 		8ABAF2F420A1186C003BD033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAF2F320A1186C003BD033 /* AppDelegate.swift */; };
-		8ABAF2F620A1186C003BD033 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAF2F520A1186C003BD033 /* ViewController.swift */; };
 		8ABAF2F920A1186C003BD033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABAF2F720A1186C003BD033 /* Main.storyboard */; };
 		8ABAF2FC20A1186C003BD033 /* Plant_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAF2FA20A1186C003BD033 /* Plant_project.xcdatamodeld */; };
 		8ABAF2FE20A1186D003BD033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ABAF2FD20A1186D003BD033 /* Assets.xcassets */; };
 		8ABAF30120A1186D003BD033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABAF2FF20A1186D003BD033 /* LaunchScreen.storyboard */; };
 		8ABAF30C20A1186D003BD033 /* Plant_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAF30B20A1186D003BD033 /* Plant_projectTests.swift */; };
 		8ABAF31720A1186D003BD033 /* Plant_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAF31620A1186D003BD033 /* Plant_projectUITests.swift */; };
+		8ABAF32520A11B8F003BD033 /* GreenhouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAF32420A11B8F003BD033 /* GreenhouseViewController.swift */; };
+		8ABAF32820A2694C003BD033 /* PlantInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAF32720A2694C003BD033 /* PlantInfoViewController.swift */; };
+		8ABAF32D20A26A88003BD033 /* PlantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAF32C20A26A88003BD033 /* PlantClass.swift */; };
+		8AD5370D20A6511F00611EA2 /* InfoButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD5370C20A6511F00611EA2 /* InfoButtonViewController.swift */; };
+		8AD5370F20A651B300611EA2 /* ChangeConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD5370E20A651B300611EA2 /* ChangeConditionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A05A09320AB8B8F006A3B84 /* PlantGuideTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantGuideTableViewController.swift; sourceTree = "<group>"; };
+		8A05A09520AB8F20006A3B84 /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
 		8ABAF2F020A1186C003BD033 /* Plant project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plant project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ABAF2F320A1186C003BD033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8ABAF2F520A1186C003BD033 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8ABAF2F820A1186C003BD033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8ABAF2FB20A1186C003BD033 /* Plant_project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Plant_project.xcdatamodel; sourceTree = "<group>"; };
 		8ABAF2FD20A1186D003BD033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		8ABAF31220A1186D003BD033 /* Plant projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plant projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ABAF31620A1186D003BD033 /* Plant_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant_projectUITests.swift; sourceTree = "<group>"; };
 		8ABAF31820A1186D003BD033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ABAF32420A11B8F003BD033 /* GreenhouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenhouseViewController.swift; sourceTree = "<group>"; };
+		8ABAF32720A2694C003BD033 /* PlantInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantInfoViewController.swift; sourceTree = "<group>"; };
+		8ABAF32C20A26A88003BD033 /* PlantClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantClass.swift; sourceTree = "<group>"; };
+		8AD5370C20A6511F00611EA2 /* InfoButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButtonViewController.swift; sourceTree = "<group>"; };
+		8AD5370E20A651B300611EA2 /* ChangeConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeConditionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +111,11 @@
 		8ABAF2F220A1186C003BD033 /* Plant project */ = {
 			isa = PBXGroup;
 			children = (
+				8ABAF32B20A26A6C003BD033 /* Model */,
+				8ABAF32A20A26A65003BD033 /* Protocols */,
+				8ABAF32920A26A37003BD033 /* View */,
+				8ABAF32620A11B99003BD033 /* Controllers */,
 				8ABAF2F320A1186C003BD033 /* AppDelegate.swift */,
-				8ABAF2F520A1186C003BD033 /* ViewController.swift */,
 				8ABAF2F720A1186C003BD033 /* Main.storyboard */,
 				8ABAF2FD20A1186D003BD033 /* Assets.xcassets */,
 				8ABAF2FF20A1186D003BD033 /* LaunchScreen.storyboard */,
@@ -126,6 +141,41 @@
 				8ABAF31820A1186D003BD033 /* Info.plist */,
 			);
 			path = "Plant projectUITests";
+			sourceTree = "<group>";
+		};
+		8ABAF32620A11B99003BD033 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8ABAF32420A11B8F003BD033 /* GreenhouseViewController.swift */,
+				8ABAF32720A2694C003BD033 /* PlantInfoViewController.swift */,
+				8AD5370C20A6511F00611EA2 /* InfoButtonViewController.swift */,
+				8AD5370E20A651B300611EA2 /* ChangeConditionsViewController.swift */,
+				8A05A09320AB8B8F006A3B84 /* PlantGuideTableViewController.swift */,
+				8A05A09520AB8F20006A3B84 /* GoalsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8ABAF32920A26A37003BD033 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8ABAF32A20A26A65003BD033 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8ABAF32B20A26A6C003BD033 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8ABAF32C20A26A88003BD033 /* PlantClass.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +309,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ABAF2F620A1186C003BD033 /* ViewController.swift in Sources */,
+				8AD5370D20A6511F00611EA2 /* InfoButtonViewController.swift in Sources */,
+				8AD5370F20A651B300611EA2 /* ChangeConditionsViewController.swift in Sources */,
+				8A05A09420AB8B8F006A3B84 /* PlantGuideTableViewController.swift in Sources */,
+				8ABAF32520A11B8F003BD033 /* GreenhouseViewController.swift in Sources */,
 				8ABAF2FC20A1186C003BD033 /* Plant_project.xcdatamodeld in Sources */,
+				8ABAF32820A2694C003BD033 /* PlantInfoViewController.swift in Sources */,
+				8ABAF32D20A26A88003BD033 /* PlantClass.swift in Sources */,
 				8ABAF2F420A1186C003BD033 /* AppDelegate.swift in Sources */,
+				8A05A09620AB8F20006A3B84 /* GoalsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
