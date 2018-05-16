@@ -48,32 +48,49 @@ class PlantInfoViewController: UIViewController {
         view.addSubview(scrollView)
 
     }
+    
+    @IBAction func plantGuidePressed(_ sender: Any) {
+        performSegue(withIdentifier: "PlantGuideVC", sender: nil)
+    }
+    
+    @IBAction func goalsButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: "GoalsVCSegue", sender: nil)
+    }
+    
+    func segueToChangeConditionController() {
+        self.performSegue(withIdentifier: "ChangeConditions", sender: nil)
+    }
+    
+    func openInfoViewController() {
+        self.performSegue(withIdentifier: "InfoView", sender: nil)
+    }
 
     @IBAction func exitButtonPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func infoButtonPressed(_ sender: Any) {
-        // Next set this to segue to the InfoButtonViewController w/ability to exit out. READ ONLY, no buttons other than to exit! Maybe text view?
+        openInfoViewController()
     }
     
     @IBAction func waterPlantPressed(_ sender: Any) {
-        // Segue to the ChangeConditionsViewController
+        segueToChangeConditionController()
     }
     
     @IBAction func changeTempPressed(_ sender: Any) {
-        // Segue to the ChangeConditionsViewController
+        segueToChangeConditionController()
     }
     
     @IBAction func changeHumidityPressed(_ sender: Any) {
-        // Segue to the ChangeConditionsViewController
+        segueToChangeConditionController()
     }
     
     @IBAction func crossPollinatePressed(_ sender: Any) {
-        // Segue to the ChangeConditionsViewController
+        segueToChangeConditionController()
     }
     
     @IBAction func changeLightPressed(_ sender: Any) {
-        // Segue to the ChangeConditionsViewController
+        segueToChangeConditionController()
     }
     
     @IBAction func takeCuttingPressed(_ sender: Any) {

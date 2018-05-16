@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A05A09420AB8B8F006A3B84 /* PlantGuideTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A05A09320AB8B8F006A3B84 /* PlantGuideTableViewController.swift */; };
 		8A05A09620AB8F20006A3B84 /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A05A09520AB8F20006A3B84 /* GoalsViewController.swift */; };
+		8A05A09820ABA50C006A3B84 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A05A09720ABA50C006A3B84 /* RoundedShadowButton.swift */; };
+		8A05A09A20ABAB8D006A3B84 /* PlantGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A05A09920ABAB8D006A3B84 /* PlantGuideViewController.swift */; };
 		8ABAF2F420A1186C003BD033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAF2F320A1186C003BD033 /* AppDelegate.swift */; };
 		8ABAF2F920A1186C003BD033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABAF2F720A1186C003BD033 /* Main.storyboard */; };
 		8ABAF2FC20A1186C003BD033 /* Plant_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAF2FA20A1186C003BD033 /* Plant_project.xcdatamodeld */; };
@@ -41,8 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8A05A09320AB8B8F006A3B84 /* PlantGuideTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantGuideTableViewController.swift; sourceTree = "<group>"; };
 		8A05A09520AB8F20006A3B84 /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
+		8A05A09720ABA50C006A3B84 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		8A05A09920ABAB8D006A3B84 /* PlantGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantGuideViewController.swift; sourceTree = "<group>"; };
 		8ABAF2F020A1186C003BD033 /* Plant project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plant project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ABAF2F320A1186C003BD033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ABAF2F820A1186C003BD033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -150,8 +152,8 @@
 				8ABAF32720A2694C003BD033 /* PlantInfoViewController.swift */,
 				8AD5370C20A6511F00611EA2 /* InfoButtonViewController.swift */,
 				8AD5370E20A651B300611EA2 /* ChangeConditionsViewController.swift */,
-				8A05A09320AB8B8F006A3B84 /* PlantGuideTableViewController.swift */,
 				8A05A09520AB8F20006A3B84 /* GoalsViewController.swift */,
+				8A05A09920ABAB8D006A3B84 /* PlantGuideViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -159,6 +161,7 @@
 		8ABAF32920A26A37003BD033 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8A05A09720ABA50C006A3B84 /* RoundedShadowButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -310,14 +313,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AD5370D20A6511F00611EA2 /* InfoButtonViewController.swift in Sources */,
+				8A05A09820ABA50C006A3B84 /* RoundedShadowButton.swift in Sources */,
 				8AD5370F20A651B300611EA2 /* ChangeConditionsViewController.swift in Sources */,
-				8A05A09420AB8B8F006A3B84 /* PlantGuideTableViewController.swift in Sources */,
 				8ABAF32520A11B8F003BD033 /* GreenhouseViewController.swift in Sources */,
 				8ABAF2FC20A1186C003BD033 /* Plant_project.xcdatamodeld in Sources */,
 				8ABAF32820A2694C003BD033 /* PlantInfoViewController.swift in Sources */,
 				8ABAF32D20A26A88003BD033 /* PlantClass.swift in Sources */,
 				8ABAF2F420A1186C003BD033 /* AppDelegate.swift in Sources */,
 				8A05A09620AB8F20006A3B84 /* GoalsViewController.swift in Sources */,
+				8A05A09A20ABAB8D006A3B84 /* PlantGuideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

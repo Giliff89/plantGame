@@ -1,5 +1,5 @@
 //
-//  GoalsViewController.swift
+//  PlantGuideViewController.swift
 //  Plant project
 //
 //  Created by gina iliff on 5/15/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GoalsViewController: UIViewController {
+class PlantGuideViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,4 +19,5 @@ class GoalsViewController: UIViewController {
     @IBAction func exitButtonPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
+    
 }

@@ -9,25 +9,29 @@
 import UIKit
 
 class Plant {
-    // pollinization types *
-    // pollinization age
-    // water needs *
-    // light needs *
-    // disease resistance *
-    // growth speed *
-    // temperature range *
-    // humidity range *
-    // salt tolerance *
-    // oxygen production *
-    // caloric density *
-    // medical potency *
-    // metal accumulation *
-    // length of life? *
-    // time to productivity? *
-    // evolution rating? (ease of the plant to adopt new traits? This will bve based on the starting plant, does not change)
-    // market value? For currency option *
-    // Date of planting (to calculate the age)
-    // Plant name
-    // Anything with an * after is subject to change in the game via user interaction
+    // pollinization types * var pollTypes = Array?
+    // pollinization age let pollAge: Int = 0
+    // water needs * var waterNeeds: Int = 0
+    // light needs * var lightNeeds: Int = 0
+    // disease resistance * var diseaseResist: Int = 0
+    // growth speed * var growthRate: Int = 0
+    // temperature range * var idealTemp: Int = 0
+    // humidity range * var idealHumidity: Int = 0
+    // salt tolerance * var saltTolerance: Int = 0
+    // oxygen production * var oxygenProd: Int = 0
+    // caloric density * var caloricDensity: Int = 0
+    // medical potency * var medicalPotency: Int = 0
+    // metal accumulation * var metalAccum: Int = 0
+    // length of life? * var lifespan: Int = 0
+    // time to productivity? * var productityAge: Int = 0
+    // evolution rating? (ease of the plant to adopt new traits? This will bve based on the starting plant, does not change) let evolRating: Int = 0
+    // market value? For currency option * var marketValue: Int = 0
+    // Date of planting (to calculate the age) let plantDate: DateTime? Maybe Int
+    // Plant name let plantName: String?
+    
+    // init() {
+        
+    // }
+
     
 }

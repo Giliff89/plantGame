@@ -27,8 +27,10 @@ class GreenhouseViewController: UIViewController {
     }
     
     @IBAction func plantGuidePressed(_ sender: Any) {
+        performSegue(withIdentifier: "PlantGuideVC", sender: nil)
     }
     @IBAction func goalsPressed(_ sender: Any) {
+        performSegue(withIdentifier: "GoalsVCSegue", sender: nil)
     }
     
     

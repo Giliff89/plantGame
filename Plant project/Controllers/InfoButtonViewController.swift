@@ -19,5 +19,6 @@ class InfoButtonViewController: UIViewController {
     }
 
     @IBAction func exitButtonPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
 }
