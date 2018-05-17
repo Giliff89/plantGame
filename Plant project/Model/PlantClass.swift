@@ -8,7 +8,12 @@
 
 import UIKit
 
-class Plant {
+// Using this to help structure the Core Data plant class - this file will be deleted
+
+//class Plant {
+
+//    let plantName: String? = ""
+
     // pollinization types * var pollTypes = Array?
     // pollinization age let pollAge: Int = 0
     // water needs * var waterNeeds: Int = 0
@@ -27,11 +32,9 @@ class Plant {
     // evolution rating? (ease of the plant to adopt new traits? This will bve based on the starting plant, does not change) let evolRating: Int = 0
     // market value? For currency option * var marketValue: Int = 0
     // Date of planting (to calculate the age) let plantDate: DateTime? Maybe Int
-    // Plant name let plantName: String?
     
     // init() {
         
     // }
-
     
-}
+//}

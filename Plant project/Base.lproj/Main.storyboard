@@ -768,7 +768,6 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.52647767944714785" green="0.60046418841712634" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="p7y-uN-aIz" firstAttribute="leading" secondItem="3fg-aK-wLl" secondAttribute="leading" id="52W-Pt-ANP"/>
                                     <constraint firstItem="p7y-uN-aIz" firstAttribute="top" secondItem="3fg-aK-wLl" secondAttribute="top" id="FYo-mJ-Vbh"/>
@@ -879,6 +878,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cYy-id-Uu3"/>
                     </view>
+                    <connections>
+                        <outlet property="plantGuideTableView" destination="oNo-Vs-Ou9" id="DZP-7v-lWg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hFL-ez-XTb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1063,7 +1065,7 @@
         <image name="info" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Qpe-mX-8si"/>
-        <segue reference="Hs1-k6-RFQ"/>
+        <segue reference="Kst-sz-Vb4"/>
+        <segue reference="IPI-DY-jfa"/>
     </inferredMetricsTieBreakers>
 </document>
