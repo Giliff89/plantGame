@@ -57,10 +57,6 @@ class PlantInfoViewController: UIViewController {
         performSegue(withIdentifier: "GoalsVCSegue", sender: nil)
     }
     
-    func segueToChangeConditionController() {
-        self.performSegue(withIdentifier: "ChangeConditions", sender: nil)
-    }
-    
     func openInfoViewController() {
         self.performSegue(withIdentifier: "InfoView", sender: nil)
     }
@@ -74,35 +70,35 @@ class PlantInfoViewController: UIViewController {
     }
     
     @IBAction func waterPlantPressed(_ sender: Any) {
-        segueToChangeConditionController()
+        // Let's add in a popup notification that offers options to change it on this VC
     }
     
     @IBAction func changeTempPressed(_ sender: Any) {
-        segueToChangeConditionController()
+         // Let's add in a popup notification that offers options to change it on this VC
     }
     
     @IBAction func changeHumidityPressed(_ sender: Any) {
-        segueToChangeConditionController()
+         // Let's add in a popup notification that offers options to change it on this VC
     }
     
     @IBAction func crossPollinatePressed(_ sender: Any) {
-        segueToChangeConditionController()
+         // Let's add in a popup notification that offers options to change it on this VC
     }
     
     @IBAction func changeLightPressed(_ sender: Any) {
-        segueToChangeConditionController()
+         // Let's add in a popup notification that offers options to change it on this VC
     }
     
     @IBAction func takeCuttingPressed(_ sender: Any) {
-        // Maybe no view change, just send item to inventory
+        // No view change, just send item to inventory Add in notification or splash messages?
     }
     
     @IBAction func collectSeedPressed(_ sender: Any) {
-        // Maybe no view change, just send item to inventory
+        // No view change, just send item to inventory. Add in notification or splash messages?
     }
     
     @IBAction func harvestPressed(_ sender: Any) {
-        // Maybe no view change, just send item to inventory
+        // No view change, just send item to inventory. Add in notification or splash messages?
     }
     
 }

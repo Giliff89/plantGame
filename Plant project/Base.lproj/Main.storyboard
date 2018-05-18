@@ -525,7 +525,6 @@
                                                         <state key="normal" title="Change light exposure"/>
                                                         <connections>
                                                             <action selector="changeLightPressed:" destination="FvL-9o-oFk" eventType="touchUpInside" id="Ihv-j5-sRc"/>
-                                                            <segue destination="9nO-tt-Puz" kind="show" identifier="ChangeConditions" id="RMx-KZ-iC2"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -885,54 +884,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hFL-ez-XTb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="152.80000000000001" y="910.79460269865069"/>
-        </scene>
-        <!--Change Conditions View Controller-->
-        <scene sceneID="B48-pF-WFy">
-            <objects>
-                <viewController id="9nO-tt-Puz" customClass="ChangeConditionsViewController" customModule="Plant_project" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YQP-t3-kRD">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yg2-xs-D9p">
-                                <rect key="frame" x="114.5" y="323" width="146" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHr-EL-KHX">
-                                <rect key="frame" x="15" y="25" width="30" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="9ce-Sh-Bw6"/>
-                                    <constraint firstAttribute="height" constant="30" id="m3u-SN-H8S"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="exit"/>
-                                <connections>
-                                    <action selector="exitButtonPressed:" destination="9nO-tt-Puz" eventType="touchUpInside" id="cNV-PN-oLm"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="891-6u-nUF">
-                                <rect key="frame" x="71" y="25" width="232.5" height="33"/>
-                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="pHr-EL-KHX" firstAttribute="top" secondItem="YQP-t3-kRD" secondAttribute="top" constant="25" id="5xr-B0-bEX"/>
-                            <constraint firstItem="891-6u-nUF" firstAttribute="top" secondItem="cXX-oX-Dv8" secondAttribute="top" constant="5" id="7mu-dx-Uw1"/>
-                            <constraint firstItem="pHr-EL-KHX" firstAttribute="leading" secondItem="YQP-t3-kRD" secondAttribute="leading" constant="15" id="e5j-Wv-azD"/>
-                            <constraint firstItem="891-6u-nUF" firstAttribute="centerX" secondItem="YQP-t3-kRD" secondAttribute="centerX" id="kEO-Zz-Cjp"/>
-                            <constraint firstItem="yg2-xs-D9p" firstAttribute="centerY" secondItem="YQP-t3-kRD" secondAttribute="centerY" id="v0t-US-bsk"/>
-                            <constraint firstItem="yg2-xs-D9p" firstAttribute="centerX" secondItem="YQP-t3-kRD" secondAttribute="centerX" id="wrL-zs-oIw"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="cXX-oX-Dv8"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Jey-gt-gGN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1076" y="1213"/>
         </scene>
         <!--Goals View Controller-->
         <scene sceneID="9fW-M2-LXs">

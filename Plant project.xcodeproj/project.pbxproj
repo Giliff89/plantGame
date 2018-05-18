@@ -22,7 +22,6 @@
 		8ABAF32820A2694C003BD033 /* PlantInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAF32720A2694C003BD033 /* PlantInfoViewController.swift */; };
 		8ABAF32D20A26A88003BD033 /* PlantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAF32C20A26A88003BD033 /* PlantClass.swift */; };
 		8AD5370D20A6511F00611EA2 /* InfoButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD5370C20A6511F00611EA2 /* InfoButtonViewController.swift */; };
-		8AD5370F20A651B300611EA2 /* ChangeConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD5370E20A651B300611EA2 /* ChangeConditionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +63,6 @@
 		8ABAF32720A2694C003BD033 /* PlantInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantInfoViewController.swift; sourceTree = "<group>"; };
 		8ABAF32C20A26A88003BD033 /* PlantClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantClass.swift; sourceTree = "<group>"; };
 		8AD5370C20A6511F00611EA2 /* InfoButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButtonViewController.swift; sourceTree = "<group>"; };
-		8AD5370E20A651B300611EA2 /* ChangeConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeConditionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +160,6 @@
 				8ABAF32420A11B8F003BD033 /* GreenhouseViewController.swift */,
 				8ABAF32720A2694C003BD033 /* PlantInfoViewController.swift */,
 				8AD5370C20A6511F00611EA2 /* InfoButtonViewController.swift */,
-				8AD5370E20A651B300611EA2 /* ChangeConditionsViewController.swift */,
 				8A05A09520AB8F20006A3B84 /* GoalsViewController.swift */,
 				8A05A09920ABAB8D006A3B84 /* PlantGuideViewController.swift */,
 			);
@@ -325,7 +322,6 @@
 			files = (
 				8AD5370D20A6511F00611EA2 /* InfoButtonViewController.swift in Sources */,
 				8A05A09820ABA50C006A3B84 /* RoundedShadowButton.swift in Sources */,
-				8AD5370F20A651B300611EA2 /* ChangeConditionsViewController.swift in Sources */,
 				8ABAF32520A11B8F003BD033 /* GreenhouseViewController.swift in Sources */,
 				8ABAF2FC20A1186C003BD033 /* Plant_project.xcdatamodeld in Sources */,
 				8ABAF32820A2694C003BD033 /* PlantInfoViewController.swift in Sources */,
