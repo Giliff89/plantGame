@@ -9,6 +9,15 @@
 import UIKit
 
 class GoalsViewController: UIViewController {
+    
+    // Add outlet for population size
+    // Add outlet for caloric needs
+    // Add outlet for plant hardiness/disease resistance
+    // Add outlet for salt tolerance
+    // Add outlet for medical needs
+    // Add outlet for oxygen production
+    // Add outlet for metal accumulation
+    // Add outlet for % to win condition
 
     override func viewDidLoad() {
         super.viewDidLoad()
