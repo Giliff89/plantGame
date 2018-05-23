@@ -8,8 +8,6 @@
 
 import UIKit
 
-// This needs to be a scrolling view where the user can observe and change traits about a plant. Changes can direct to the lab view controller, but the buttons need to be present here.
-
 class PlantInfoViewController: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!

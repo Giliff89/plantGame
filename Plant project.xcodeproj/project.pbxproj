@@ -22,6 +22,7 @@
 		8ABAF32820A2694C003BD033 /* PlantInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAF32720A2694C003BD033 /* PlantInfoViewController.swift */; };
 		8ABAF32D20A26A88003BD033 /* PlantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAF32C20A26A88003BD033 /* PlantClass.swift */; };
 		8AD5370D20A6511F00611EA2 /* InfoButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD5370C20A6511F00611EA2 /* InfoButtonViewController.swift */; };
+		8AFF883220B4F5C000B04B2A /* PlantDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF883120B4F5C000B04B2A /* PlantDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		8ABAF32720A2694C003BD033 /* PlantInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantInfoViewController.swift; sourceTree = "<group>"; };
 		8ABAF32C20A26A88003BD033 /* PlantClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantClass.swift; sourceTree = "<group>"; };
 		8AD5370C20A6511F00611EA2 /* InfoButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButtonViewController.swift; sourceTree = "<group>"; };
+		8AFF883120B4F5C000B04B2A /* PlantDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				8AD5370C20A6511F00611EA2 /* InfoButtonViewController.swift */,
 				8A05A09520AB8F20006A3B84 /* GoalsViewController.swift */,
 				8A05A09920ABAB8D006A3B84 /* PlantGuideViewController.swift */,
+				8AFF883120B4F5C000B04B2A /* PlantDetailsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AFF883220B4F5C000B04B2A /* PlantDetailsViewController.swift in Sources */,
 				8AD5370D20A6511F00611EA2 /* InfoButtonViewController.swift in Sources */,
 				8A05A09820ABA50C006A3B84 /* RoundedShadowButton.swift in Sources */,
 				8ABAF32520A11B8F003BD033 /* GreenhouseViewController.swift in Sources */,

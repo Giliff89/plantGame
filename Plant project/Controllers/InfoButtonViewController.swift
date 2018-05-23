@@ -12,6 +12,8 @@ class InfoButtonViewController: UIViewController {
 
     @IBOutlet weak var plantTraitInfoLabel: UILabel!
     
+    let content = ["Plant age: The time that has passed since the seed was planted", "Water usage: How much water the plant needs relative to other plants", "Water level: ", "Water Plant: ", "Ideal temperature: ", "Current temperature: ", "Change temperature: ", "Ideal humidity: ", "Current humidity: ", "Change humidity: ", "Pollinization types: ", "Ready to pollinate: ", "Cross pollinate: ", "Light requirements: ", "Current daylight: ", "Change light exposure: ", "Oxygen production: ", "Disease resistance: ", "Caloric density: ", "Medical potency: ", "Time to productivity: ", "Salt tolerance: ", "Metal accumulation: ", "Evolution rating: ", "Market value: ", "Take a cutting: ", "Collect seed: ", "Harvest: "]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
