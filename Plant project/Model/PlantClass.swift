@@ -12,28 +12,39 @@ import UIKit
 
 //class Plant {
 
-//    let plantName: String? = ""
+    // var plantName: String? = ""
+    // var plantCategory: String? = ""
+    // let plantDate: Date
 
-    // pollinization types * var pollTypes = Array?
-    // pollinization age let pollAge: Int = 0
-    // water needs * var waterNeeds: Int = 0
-    // light needs * var lightNeeds: Int = 0
-    // disease resistance * var diseaseResist: Int = 0
-    // growth speed * var growthRate: Int = 0
-    // temperature range * var idealTemp: Int = 0
-    // humidity range * var idealHumidity: Int = 0
-    // salt tolerance * var saltTolerance: Int = 0
-    // oxygen production * var oxygenProd: Int = 0
-    // caloric density * var caloricDensity: Int = 0
-    // medical potency * var medicalPotency: Int = 0
-    // metal accumulation * var metalAccum: Int = 0
-    // length of life? * var lifespan: Int = 0
-    // time to productivity? * var productityAge: Int = 0
-    // evolution rating? (ease of the plant to adopt new traits? This will bve based on the starting plant, does not change) let evolRating: Int = 0
-    // market value? For currency option * var marketValue: Int = 0
-    // Date of planting (to calculate the age) let plantDate: DateTime? Maybe Int
+    // var lengthOfLife: Float = 0.0
+    // var timeToProduction: Float = 0.0
+    // var growthSpeed: Float = 0.0
+
+    // var windPollinization: Bool = false
+    // var waterPollinization: Bool = false
+    // var insectPollinization: Bool = false
+    // var selfPollinization: Bool = false
+    // var pollinizationAge: Float = 0.0
+
+    // var waterRequirement: Float = 0.0
+    // var lightRequirement: Float = 0.0
+    // var temperatureRange: Float = 0.0
+    // var humidityRange: Float = 0.0
+
+    // var saltTolerance: Float = 0.0
+    // var diseaseResistance: Float = 0.0
+    // var oxygenProduction: Float = 0.0
+    // var metalAccumulation: Float = 0.0
+
+    // var caloricDensity: Float = 0.0
+    // var medicinalPotency: Float = 0.0
+
+    // var evolutionRating: Float = 0.0
+
     
     // init() {
+
+    //  set plantingDate, plantName, plantCategory, pollinizationAge, insectPollinization, windPollinization, waterPollinization, selfPollinization,                        waterRequirement, lightRequirement, temperatureRange, humidityRange, metalAccumulation, growthSpeed, diseaseResistance, caloricDensity, medicinalPotency, evolutionRating, lengthOfLife, saltTolerance, oxygenProduction, timeToProduction
         
     // }
     

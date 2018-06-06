@@ -13,6 +13,7 @@ class PlantInfoViewController: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!
     
     @IBOutlet weak var plantNameLabel: UILabel!
+    @IBOutlet weak var plantCategoryLabel: UILabel!
     @IBOutlet weak var plantAgeLabel: UILabel!
     
     @IBOutlet weak var waterUsageLabel: UILabel!
@@ -38,7 +39,6 @@ class PlantInfoViewController: UIViewController {
     @IBOutlet weak var saltToleranceLabel: UILabel!
     @IBOutlet weak var metalAccumLabel: UILabel!
     @IBOutlet weak var evolutionRatingLabel: UILabel!
-    @IBOutlet weak var marketValueLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
